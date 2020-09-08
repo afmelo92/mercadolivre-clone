@@ -4,6 +4,8 @@ import Info from '../Info';
 import WarrantSection from '../WarrantSection';
 import SellerInfo from '../SellerInfo';
 import ProductAction from '../ProductAction';
+import Magnifier from 'react-magnifier';
+
 
 import { Container, Row, Panel, Column, Gallery } from './styles';
 
@@ -19,7 +21,15 @@ const Product: React.FC = () => {
       <Panel>
         <Column>
           <Gallery>
-            <img src={tshirtImage} alt="T-shirt"/>
+          <Magnifier
+        src={tshirtImage}
+        width={400}
+        mgWidth={300}
+        mgHeight={300}
+        mgShape='square'
+        zoomFactor={0.75}
+        className="product-image"
+      />
           </Gallery>
 
           <Info />

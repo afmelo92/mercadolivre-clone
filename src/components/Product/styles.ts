@@ -45,7 +45,7 @@ export const Gallery = styled.div`
   justify-content: center;
   height: 530px;
 
-  > img {
+  .product-image {
     height: 73%;
   }
 `;
