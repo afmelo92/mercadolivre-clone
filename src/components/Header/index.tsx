@@ -17,24 +17,7 @@ const Header: React.FC = () => {
       </InputBox>
       <img src={mlbMenu} alt="logo-menu" className="header-link"/>
     </SearchBarRow>
-    <LinksRow>
-    <ul>
-      <li>
-        <LocationIcon />
-        <a href="/">
-          <span>Enviar para Andre</span>
-          <span>Avenida dos bobos nº 0</span>
-        </a>
-      </li>
-      <li>Categorias</li>
-      <li>Ofertas do dia</li>
-      <li>Histórico</li>
-      <li>Supermercado</li>
-      <li>Lojas oficiais</li>
-      <li>Vender</li>
-      <li>Contato</li>
-    </ul>
-    </LinksRow>
+
   </Container>);
 };
 
